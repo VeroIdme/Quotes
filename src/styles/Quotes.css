@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-principal{
+    height: 100vh;
+    display: flex;
+}
+.container-quote{
+    margin: auto;
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-style: italic;
+}
+.quote{
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+
+}
+.author{
+    font-size: 16px;
+    text-align: right;
+    margin: 5px;
+}
+.container-btn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn{
+    width: 25px;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    
+}
